@@ -42,6 +42,7 @@
 		074D06C61CD5DA81006A49E7 = {
 			isa = PBXGroup;
 			children = (
+				074D06E91CD5DC84006A49E7 /* Blog */,
 				074D06D11CD5DA81006A49E7 /* MyBlog */,
 				074D06D01CD5DA81006A49E7 /* Products */,
 			);
@@ -77,6 +78,13 @@
 				074D06D31CD5DA81006A49E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		074D06E91CD5DC84006A49E7 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Blog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +307,7 @@
 				074D06E81CD5DA81006A49E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
