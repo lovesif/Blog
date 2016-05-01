@@ -13,7 +13,6 @@
 		074D06DD1CD5DA81006A49E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074D06DB1CD5DA81006A49E7 /* Main.storyboard */; };
 		074D06DF1CD5DA81006A49E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074D06DE1CD5DA81006A49E7 /* Assets.xcassets */; };
 		074D06E21CD5DA81006A49E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074D06E01CD5DA81006A49E7 /* LaunchScreen.storyboard */; };
-		074D06EB1CD5DE38006A49E7 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D06EA1CD5DE38006A49E7 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		074D06DE1CD5DA81006A49E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		074D06E11CD5DA81006A49E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		074D06E31CD5DA81006A49E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		074D06EA1CD5DE38006A49E7 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +42,6 @@
 		074D06C61CD5DA81006A49E7 = {
 			isa = PBXGroup;
 			children = (
-				074D06E91CD5DC84006A49E7 /* Blog */,
 				074D06D11CD5DA81006A49E7 /* MyBlog */,
 				074D06D01CD5DA81006A49E7 /* Products */,
 			);
@@ -80,14 +77,6 @@
 				074D06D31CD5DA81006A49E7 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		074D06E91CD5DC84006A49E7 /* Blog */ = {
-			isa = PBXGroup;
-			children = (
-				074D06EA1CD5DE38006A49E7 /* Test.m */,
-			);
-			path = Blog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				074D06DA1CD5DA81006A49E7 /* ViewController.m in Sources */,
-				074D06EB1CD5DE38006A49E7 /* Test.m in Sources */,
 				074D06D71CD5DA81006A49E7 /* AppDelegate.m in Sources */,
 				074D06D41CD5DA81006A49E7 /* main.m in Sources */,
 			);
